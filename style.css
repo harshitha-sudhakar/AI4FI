@@ -1,0 +1,146 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #013A20;
+  margin-top: 0;
+  margin-bottom: 7.5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Lucida Console', monospace;
+  font-size: 55px;
+  background-color: #478C5C;
+  padding: 0.75em;
+  text-align: center;
+  color: #013A20;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Lucida Console', monospace;
+  font-size: 30px;
+  padding: 0.75em;
+  text-align: center;
+  color: #CDD193;
+  text-decoration: underline;
+  text-decoration-color: #478C5C;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 30px;
+  margin-top: 25px;
+  font-family: 'Lucida Console', monospace;
+  color: #CDD193;
+  font-size: 20px;
+}
+
+.scriptQues {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1em;
+  background: #478C5C;
+  color: #013A20;
+  margin-top: 25px;
+  font-family: 'Lucida Console', monospace;
+  font-size: 20px;
+}
+
+.scriptItem {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.genFact {
+  margin-top: 2.5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 5px;
+  font-family: 'Lucida Console', monospace;
+  font-size: 20px;
+  background-color: #478C5C;
+  text-align: center;
+  color: #013A20;
+}
+
+
+#factDesc {
+  color: #013A20;
+  padding-bottom: 10px;
+}
+
+#scriptReturned {
+  padding: 1em;
+}
+
+/* STYLE IMAGES */
+img {
+  display: inline;
+  margin-top: 3%;
+    max-height: 30%;
+    max-width: 30%;
+    border: 3px solid #478C5C;
+}
+/* STYLE NAV BAR */
+#nav {
+  list-style-type: none;
+  background-color: #013A20;
+  overflow: hidden;
+  padding: 1em;
+}
+
+#navList {
+  display: inline;
+  float: right;
+}
+
+#navBar {
+  text-decoration: none;
+  font-family: 'Lucida Console', monospace;
+  color: #CDD193;
+  font-size: 1.3em;
+  padding: 25px;
+}
+
+#navBar:hover {
+  background-color: #478C5C;
+}
+
+/* STYLE BUTTONS */
+#factBtn {
+  margin-top: 10px;
+  font-family: 'Lucida Console', monospace;
+  background: #CDD193;
+  padding: 0.5em;
+  color: #013A20;
+  font-size: 15px;
+}
+
+a:link {
+  color: #CDD193;
+}
+
+a:visited {
+  color: #478C5C;
+}
+
+#scriptBtn {
+  margin-top: 10px;
+  font-family: 'Lucida Console', monospace;
+  background: #CDD193;
+  padding: 0.5em;
+  color: #013A20;
+  font-size: 15px;
+}
+/* ADD MORE! */
